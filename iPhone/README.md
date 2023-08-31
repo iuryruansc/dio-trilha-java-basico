@@ -1,27 +1,8 @@
-@startuml
-AparelhoTelefonico <|-- iPhone
-NavegadorInternet <|-- iPhone
-ReprodutorMusical <|-- iPhone
+### DIAGRAMA DE CLASSES PARA O PROJETO
+
+## Legenda
+I - Interfaces </br>
+C - Classes
 
 
-interface AparelhoTelefonico {    
-    -- Public methods --
-    + ligar() : void
-    + atender() : void
-    + iniciarCorreioVoz() : void
-}
-
-interface NavegadorInternet {    
-    -- Public methods --
-    + exibirPagina() : void
-    + adicionarNovaAba() : void
-    + atualizarPagina() : void
-}
-
-interface ReprodutorMusical {    
-    -- Public methods --
-    + tocar() : void
-    + pausar() : void
-    + selecionarMusica() : void
-}
-@enduml
+![Diagrama de classes](uml_iphone.png)
